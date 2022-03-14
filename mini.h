@@ -31,5 +31,5 @@ typedef struct mini
 	t_list	*envp;	/* Cet element correspond a l'environnement que tu recuperes dans le main mais convertit en t_list pour permettre de le manier plus facilement*/ 
 					/* Dans l'idee tu peux me le passer en char **envp et je ferai le changement en t_list de mon cote*/
 
-	//Quelque chose pour les signaux ? Uniquement pour le Ctrl + C les autres n'envoient pas de signaux mais je n'y connais rien
+	//Quelque chose pour les signaux ? Uniquement pour le Ctrl + C les autres n'envoient pas de signaux mais je n'y connais r
 };
