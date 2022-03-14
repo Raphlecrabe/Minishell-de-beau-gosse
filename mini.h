@@ -6,7 +6,7 @@
 /*   By: rmonacho <rmonacho@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/03 14:02:34 by rmonacho          #+#    #+#             */
-/*   Updated: 2022/03/03 14:19:47 by rmonacho         ###   ########lyon.fr   */
+/*   Updated: 2022/03/14 16:43:27 by rmonacho         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,5 +31,5 @@ typedef struct mini
 	t_list	*envp;	/* Cet element correspond a l'environnement que tu recuperes dans le main mais convertit en t_list pour permettre de le manier plus facilement*/ 
 					/* Dans l'idee tu peux me le passer en char **envp et je ferai le changement en t_list de mon cote*/
 
-	//Quelque chose pour les signaux ? Uniquement pour le Ctrl + C les autres n'envoient pas de signaux mais je n'y connais r
+	//Quelque chose pour les signaux ? Uniquement pour le Ctrl + C les autres n'envoient pas de signaux mais je n'y connais rien
 };
